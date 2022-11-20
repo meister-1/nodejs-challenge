@@ -1,0 +1,8 @@
+{
+  "legacyWatch": true,
+  "ignore": [".git", "node_modules"],
+  "watch": ["src"],
+  "exec": "ts-node --transpile-only src/index.ts",
+  "verbose": true,
+  "ext": "ts,js,json"
+}
